@@ -1,0 +1,751 @@
+version: 2
+updates:
+  - package-ecosystem: maven
+    directory: /exercises/chapter2-day2/dining-philosophers-locks-notify
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/DataParallelism/Ripple
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/DataParallelism/Zoom
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/FunctionalProgramming/DateFormatBug
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/LambdaArchitecture/WikiContributors
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/LambdaArchitecture/WordCount
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/LambdaArchitecture/WordCountXml
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/Counting
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/CountingBetter
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/CountingFixed
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/DiningPhilosophers
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/DiningPhilosophersCondition
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/DiningPhilosophersFixed
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/DiningPhilosophersTimeout
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/EchoServer
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/EchoServerBetter
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/HelloWorld
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/HttpDownload
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/HttpDownloadBetter
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/HttpDownloadFixed
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/Interruptible
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/LinkedList
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/Puzzle
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/Uninterruptible
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/WordCount
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/WordCountBatchConcurrentHashMap
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/WordCountConcurrentHashMap
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/WordCountProducerConsumer
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/ThreadsLocks/WordCountSynchronizedHashMap
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
+
+  - package-ecosystem: maven
+    directory: /src/threading-essentials-course
+    schedule:
+      interval: daily
+    groups:
+      dev-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: development
+      production-dependencies:
+          applies-to: version-updates
+          patterns:
+              - '*'
+          dependency-type: production
+    cooldown:
+      default-days: 7
+      semver-major-days: 30
+      semver-minor-days: 14
+      semver-patch-days: 5
+      include:
+          - '*'
+      exclude:
+          - react
